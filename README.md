@@ -4,7 +4,7 @@ The objective of this program is to encode a game of Connect Four where the user
 
 ## Limitations 
 
-There are a few limitations to this program. For one, the code is strictly limited to vertical and horizontal eliminations, and therefore cannot detect a victory if the positions are lined up diagonally. Beyond that, the runtime on this code is O(n) to O(n<sup>2</sup>) complexity which means that the program may take exponentially long to process as the game board expands.
+There are a few limitations to this program. For one, the code is strictly limited to vertical and horizontal eliminations, and therefore cannot detect a victory if the positions are lined up diagonally. Beyond that, the runtime on this code is O(n) to O(n*m) complexity which means that the program may take significant time to execute as the size of the board increases.
 
 ## Future Improvements
 
